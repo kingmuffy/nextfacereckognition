@@ -1,0 +1,95 @@
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .form {
+    margin-bottom: 40px;
+  }
+  
+  .fileInput {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .submitButton {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
+  
+  .recognizedFaces {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: center;  
+  }
+  
+  .faceCard {
+    
+
+    border: 5px solid #bbb;
+    border-radius: 5px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background-size: cover !important;
+  
+  }
+  
+
+  .faceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .faceName {
+    margin-top: 10px;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .faceName svg {
+    margin-left: 5px;
+    color: green;
+    font-size: 1.2em;
+  }
+  
+  .faceCard {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .verificationIcon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: green;
+    font-size: 24px;
+  }
+  
+  
