@@ -11,10 +11,10 @@ export default function Home() {
          Face Recognition System
         </h1>
         <p className={styles.desc}>
-          Turning your Idea into Reality. We bring together the teams from the
-          global tech industry.
+          Turning your fear and daubt into Trust. We bring together the people from the
+          global online interactions.
         </p>
-        <Button url="/portfolio" text="See Our Works"/>
+        <Button url="/portfolio" text="See how it Works"/>
       </div>
       <div className={styles.item}>
         <Image src={facee} alt="" className={styles.img} />
