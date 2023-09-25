@@ -27,9 +27,9 @@ const { data, mutate, error, isLoading } = useSWR(
 </div>;
 }
 
-if (session.status === "unauthenticated") {
-  router?.push("/dashboard/login");
-}
+// if (session.status === "unauthenticated") {
+//   router?.push("/dashboard/login");
+// }
 
 const handleSubmit = async (e) => {
   e.preventDefault();
